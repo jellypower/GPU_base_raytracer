@@ -36,7 +36,7 @@ int g_NumSphere = 10;
 const int g_NumSphereMax = 20;
 const int g_NumSphereMin = 2;
 
-int g_BounceLimit = 2;
+int g_BounceLimit = 1;
 const int g_BounceLimitMax = 10;
 const int g_BounceLimitMin = 0;
 
@@ -353,6 +353,16 @@ void keyboard(unsigned char c, int x, int y)
 }
 
 void diesplayManual() {
+	printf("\n\n\n");
+
+	printf("==============GPU Base Raytracer without RT-core---=============\n");
+	printf("\t1. Space: Enable/Disable RayTracing\n");
+	printf("\t2. 1: Increase num of Sphere\n");
+	printf("\t3. 2: Decrease num of Sphere\n");
+	printf("\t4. 3: Increase num of bounc limit\n");
+	printf("\t5. 4: Decrease num of bounc limit\n");
+	printf("\t6. r: Reset the position of all spheres\n");
+	printf("================================================================\n");
 
 }
 
